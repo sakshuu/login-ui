@@ -14,7 +14,7 @@ const Login = () => {
 
   <div className='sm:hidden md:inline'>
   <div class="relative">
-    <img src={Rectangle} className='h-200 w-250' alt="" />
+    <img src={Rectangle} height={555} width={620} alt="" />
   <div class="absolute p-8 top-0 left-0">
     <img src={Frame}  className='' alt="" />
 
@@ -101,7 +101,7 @@ const Login = () => {
               <button
                 type="submit"
                 className="flex w-full justify-center rounded-md bg-slate-950 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600
-                shadow-lg shadow-slate-500/50"
+                shadow-lg shadow-slate-950/500"
               >
                 Sign in
               </button>
